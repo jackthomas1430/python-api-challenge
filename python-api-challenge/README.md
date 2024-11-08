@@ -1,13 +1,13 @@
-#Module 6 Challenge
+# Module 6 Challenge
 
-##Overview 
+## Overview 
 This challenge is split into two parts, the "WeatherPy" challenge and the "VacationPy" challenge. A detailed overview of each is provided below. 
 
-##WeatherPY
+## WeatherPY
 
 In this challenge, we use the "citipy Python library" and "OpenWeatherMap API" to create a representative model of weather across cities. To do so, we create a Python script to visualize the weather of over 500 cities at varying distances from the equator.
     
-    ##Objectives
+## Objectives
     
     Step 1: Use the OpenWeatherMap API to gather weather data from the cities list generated in the starter code and create plots to show the relationship between the latitude of a city and the following weather variable: 
         1. Latitude vs. Max Temperature 
@@ -24,19 +24,19 @@ In this challenge, we use the "citipy Python library" and "OpenWeatherMap API" t
         7. Northern Hemisphere: Wind Speed vs. Latitude
         8. Southern Hemisphere: Wind Speed vs. Latitude
 
-##VactionPY
+## VactionPY
 
 For the "VactionPy" challenge we use Jupyter notebooks, the "geoViews Python library", and the Geoapify API to create map visualization that will help us plan our next vacation. In this assignment, we create a map that shows a point for every city in the "city_data_df". We then narrow down the list of cities by filtering the data frame to only include the cities with our ideal weather conditions. In this case, those conditions are a temperature between 27 degees (C) and 21 degrees (C), a wind speed less than 4.5 m/s, and 0% cloudiness. 
 
-##Files
+## Files
  - "python-api-challenge"(git@github.com:jackthomas1430/python-api-challenge.git): The main repo for this challenge. 
-    -"output_data" folder: contains the the "cities.csv" exported through the "WeatherPy.ipynb" python script and images of the plots created during our analysis.  
-        -“cities.csv”: the csv file containing the cities and weather data gathered through the "WeatherPy.ipynb" python script
-    -"WeatherPy_VacationPy" folder: contains all files needed for the module 6 challenge 
-        -"VactionPy.ipynb": the main script for the "VactionPy" challenge
-        -"WeatherPy.ipynb": the main script for the "WeatherPy" challenge 
+    - "output_data" folder: contains the the "cities.csv" exported through the "WeatherPy.ipynb" python script and images of the plots created during our analysis.  
+        - “cities.csv”: the csv file containing the cities and weather data gathered through the "WeatherPy.ipynb" python script
+    - "WeatherPy_VacationPy" folder: contains all files needed for the module 6 challenge 
+        - "VactionPy.ipynb": the main script for the "VactionPy" challenge
+        - "WeatherPy.ipynb": the main script for the "WeatherPy" challenge 
     
-##Set Up
+## Set Up
     
     1. Clone the repository to your local device using git clone https://github.com/jackthomas1430/python-api-challenge.git
     2. Sign up for API Keys using the following links: 
@@ -82,7 +82,7 @@ For the "VactionPy" challenge we use Jupyter notebooks, the "geoViews Python lib
     5. Run "WeatherPY.ipynb"
     6. Run "VacationPy.ipynb"
     
-##Summary/Analysis 
+## Summary/Analysis 
     The "WeatherPy" analysis shows that latitude has a moderate impact on the maximum temperature of the cities in our dataset. The linear regression plots show that as we move further away from the equator the temperatures typically decrease. The data does not suggest that latitude has a strong influence on any of the other weather conditons: humidity, cloudiness, and wind speed. Ultimately, this analysis supports the notion that the closer to the equator you are the hotter it will be.  
     The "VactionPy" script narrowed my list of potential destinations down 10 cities based on my ideal whether conditions. Inerestingly, 5 of the 10 cities were in Mexico and there were 4 cities in which there was no hotel within 10,000 meteres found through the search. Considering I have never heard of and certainly cannot pronouce the majority of the cities on the list, the Comfort Rooms in Cabo San Lucas, Mexico is where you will find me on my next vacation. 
 ##Acknowledgements
