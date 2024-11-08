@@ -9,20 +9,20 @@ In this challenge, we use the "citipy Python library" and "OpenWeatherMap API" t
     
 ## Objectives
     
-    Step 1: Use the OpenWeatherMap API to gather weather data from the cities list generated in the starter code and create plots to show the relationship between the latitude of a city and the following weather variable: 
-        1. Latitude vs. Max Temperature 
-        2. Latitude vs. Humidity 
-        3. Latitude vs. Cloudiness 
+Step 1: Use the OpenWeatherMap API to gather weather data from the cities list generated in the starter code and create plots to show the relationship between the latitude of a city and the following weather variable: 
+    1. Latitude vs. Max Temperature 
+    2. Latitude vs. Humidity 
+    3. Latitude vs. Cloudiness 
         4. Latitude vs. Wind Speed 
-    Step 2: Seperate plots into Northern Hemisphere and Southern Hemisphere and calculate the linear regression for each of the following: 
-        1. Northern Hemisphere: Temperature vs. Latitude
-        2. Southern Hemisphere: Temperature vs. Latitude
-        3. Northern Hemisphere: Humidity vs. Latitude
-        4. Southern Hemisphere: Humidity vs. Latitude
-        5. Northern Hemisphere: Cloudiness vs. Latitude
-        6. Southern Hemisphere: Cloudiness vs. Latitude
-        7. Northern Hemisphere: Wind Speed vs. Latitude
-        8. Southern Hemisphere: Wind Speed vs. Latitude
+Step 2: Seperate plots into Northern Hemisphere and Southern Hemisphere and calculate the linear regression for each of the following: 
+    1. Northern Hemisphere: Temperature vs. Latitude
+    2. Southern Hemisphere: Temperature vs. Latitude
+    3. Northern Hemisphere: Humidity vs. Latitude
+    4. Southern Hemisphere: Humidity vs. Latitude
+    5. Northern Hemisphere: Cloudiness vs. Latitude
+    6. Southern Hemisphere: Cloudiness vs. Latitude
+    7. Northern Hemisphere: Wind Speed vs. Latitude
+    8. Southern Hemisphere: Wind Speed vs. Latitude
 
 ## VactionPY
 
@@ -83,11 +83,14 @@ For the "VactionPy" challenge we use Jupyter notebooks, the "geoViews Python lib
     6. Run "VacationPy.ipynb"
     
 ## Summary/Analysis 
-    The "WeatherPy" analysis shows that latitude has a moderate impact on the maximum temperature of the cities in our dataset. The linear regression plots show that as we move further away from the equator the temperatures typically decrease. The data does not suggest that latitude has a strong influence on any of the other weather conditons: humidity, cloudiness, and wind speed. Ultimately, this analysis supports the notion that the closer to the equator you are the hotter it will be.  
-    The "VactionPy" script narrowed my list of potential destinations down 10 cities based on my ideal whether conditions. Inerestingly, 5 of the 10 cities were in Mexico and there were 4 cities in which there was no hotel within 10,000 meteres found through the search. Considering I have never heard of and certainly cannot pronouce the majority of the cities on the list, the Comfort Rooms in Cabo San Lucas, Mexico is where you will find me on my next vacation. 
-##Acknowledgements
-    
-    Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.The starter code provided was the base of the report and was modified using course curriculum and activities to fit the requirements of the assignment. The TA and instructor for the course also assisted in adjusting the code during office hours.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
+
+The "WeatherPy" analysis shows that latitude has a moderate impact on the maximum temperature of the cities in our dataset. The linear regression plots show that as we move further away from the equator the temperatures typically decrease. The data does not suggest that latitude has a strong influence on any of the other weather conditons: humidity, cloudiness, and wind speed. Ultimately, this analysis supports the notion that the closer to the equator you are the hotter it will be.  
+
+The "VactionPy" script narrowed my list of potential destinations down 10 cities based on my ideal whether conditions. Inerestingly, 5 of the 10 cities were in Mexico and there were 4 cities in which there was no hotel within 10,000 meteres found through the search. Considering I have never heard of and certainly cannot pronouce the majority of the cities on the list, the Comfort Rooms in Cabo San Lucas, Mexico is where you will find me on my next vacation. 
+
+## Acknowledgements
+
+Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.The starter code provided was the base of the report and was modified using course curriculum and activities to fit the requirements of the assignment. The TA and instructor for the course also assisted in adjusting the code during office hours.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
 
 ## References
 
